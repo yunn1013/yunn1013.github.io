@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜點介紹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .top-nav {
+            background-color: #FF9494;
+            height: 80px;
+            padding: 8px;
+            justify-content: space-between;
+        }
+
+        .top-nav ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 0;
+            display: flex;
+        }
+
+        .top-nav li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        .top-nav a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        .top-nav a:hover {
+            color: #FFD1D1;
+        }
+
+        .top-nav .flex-container li:last-child {
+            margin-left: auto;
+        }
+
+        .top-nav img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        .container-fluid {
+            position: relative;
+        }
+
+        .container-fluid .button {
+            position: absolute;
+            top: 65%;
+            left: 14%;
+            transform: translate(-50%, -50%);
+            background-color: #FF9494;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 150px;
+            height: 60px;
+            font-size: 24px;
+        }
+
+        .wrap {
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content {
+            width: 600px;
+            height: 500px;
+            background: #FF9494;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content p {
+            width: 500px;
+            font-size: 20px;
+            color: #ffffff;
+            font-family: Helvetica;
+            letter-spacing: 1px;
+            line-height: 2;
+
+        }
+        .box {
+    background: #f7cbcb;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <nav class="top-nav flex-warp">
+            <ul class="flex-container">
+                <li><a href="#scrollspyHeading2"><img src="01.png" alt="..."></a></li>
+                <li><a href="#1">甜點影片</a></li>
+                <li><a href="#2">甜點介紹</a></li>
+                <li><a href="index6.html">訂購</a></li>
+                <li class="right"><a href="#3">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div id="scrollspyHeading2">
+            <img src="00.png" alt="00">
+
+        </div>
+        <a class="link-light" href="https://youtu.be/hdFyPi-ODfc"><button class="button">進入介紹</button></a>
+    </div>
+
+    <div id="1" class="container-fluid p-0">
+        <div class="row justify-content-center">
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+
+
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="02.jpg" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="03.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="04.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="05.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                </div>
+
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id=2>
+    <div class="wrap ">
+        <div class="content">
+            <p>巧克力布朗尼（英語：Chocolate brownie）又稱為軟糖蛋糕，簡稱軟糖糕，巧克力布朗尼是外型看起來有點像餅乾的巧克力蛋糕，由於顏色呈現巧克力色，也就是棕色（brown），而被稱為布朗尼（Brownie）是一種方形的巧克力烘焙甜點。</p>
+        </div>
+        <a href="index2.html"><img src="06.png" alt="photo"></a>
+    </div>
+
+    <div class="wrap ">
+        <a href="index3.html"><img src="07.png" alt="photo"></a>
+        <div class="content">
+            <p>瑪卡龍（法語：macaron，法語發音：[makaʁɔ̃]），又稱作馬卡龍、法式小圓餅或少女的酥胸，是一種用色彩繽紛絢麗的法國甜點，外殼堅硬但易碎，內餡黏稠扎實，口感奇妙，因為其極度可愛優雅，馬卡龍色也成為了一種時尚配色方案。</p>
+        </div>
+        
+    </div>
+
+    <div class="wrap ">
+        <div class="content">
+            <p>蒙布朗（法語：Mont blanc），港稱法式栗子蛋糕，簡稱栗子蛋糕，是一種以栗子為原料製成的法式甜點，其法語名稱因甜點形狀類似「覆雪的白朗峰」而得名。</p>
+        </div>
+        <a href="index4.html"><img src="08.png" alt="photo"></a>
+    </div>
+
+    <div class="wrap ">
+        <a href="index5.html"><img src="09.png" alt="photo"></a>
+        <div class="content">
+            <p>提拉米蘇（義大利語：Tiramisù；威尼斯語：Tiramesù），是一種著名的義大利式甜點，它是由泡過咖啡或蘭姆酒的手指餅乾，加上一層馬斯卡彭起司、蛋黃及糖的混合物，然後再在蛋糕表面灑上一層可可粉而成，口感細膩飽滿。</p>
+        </div>
+        
+    </div>
+</div>
+
+<nav id="3" class="box">
+    <div class="">
+    <a href="https://www.instagram.com/"><img src="10.png" alt="photo"></a>
+    <a href="https://zh-tw.facebook.com/"><img src="11.png" alt="photo"></a>
+</div>
+
+</nav>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
